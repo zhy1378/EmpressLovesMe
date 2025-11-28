@@ -1,0 +1,39 @@
+input-files:
+  - ../README.md
+  - 圣诞58/58-1.巧遇.md
+  - 圣诞58/58-2.借阳气.md
+  - 圣诞58/58-3.粪战.md
+  - 圣诞58/58-4.守约.md
+  - 圣诞58/58-5A.明空.md
+  - 圣诞58/58-5B.明空.md
+  - 圣诞58/58-6.逐粮.md
+  - 圣诞58/58-7.大水.md
+  - 圣诞58/58-8A.大云经.md
+  - 圣诞58/58-8B.大云经.md
+  - 圣诞58/58-9A.夜壶.md
+  - 圣诞58/58-9B.夜壶.md
+  - 圣诞59/59-1.献身.md
+
+pdf-engine: xelatex
+filters:
+  - ../format.lua
+
+variables:
+  documentclass: scrartcl
+  geometry: |
+    paperwidth=9cm,
+    paperheight=16cm,
+    margin=0.2cm
+  CJKmainfont: "PingFang SC"
+  fontsize: 14pt
+#  graphics: yes
+#  maxwidth: 90%
+#  maxheight: 90%
+  header-includes:
+    - \renewcommand{\figurename}{图}
+    - \usepackage{graphicx}
+    - \setkeys{Gin}{width=\linewidth, keepaspectratio}
+
+
+#  CJKoptions: "Scale=1.1"
+#  linestretch: 0.9
