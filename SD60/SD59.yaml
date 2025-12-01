@@ -13,6 +13,8 @@ input-files:
   - 圣诞58/58-9A.夜壶.md
   - 圣诞58/58-9B.夜壶.md
   - 圣诞59/59-1.献身.md
+  - 圣诞59/59-2.木僧.md
+  - 圣诞59/59-3.千金酒.md
 
 pdf-engine: xelatex
 #filters:
