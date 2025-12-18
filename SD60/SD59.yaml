@@ -21,6 +21,8 @@ input-files:
   - 圣诞59/59-5B.佛.md
   - 圣诞59/59-5C.佛.md
   - 圣诞59/59-6.金屋.md
+  - 圣诞59/59-7A.长屋.md
+  - 圣诞59/59-7B.长屋.md
 
 pdf-engine: xelatex
 #filters:
