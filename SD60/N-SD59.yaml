@@ -1,0 +1,46 @@
+# 1. Move the filter here
+filters:
+  - ../format3.lua
+
+input-files:
+  - 圣诞58/N-58-1+2+3.md
+  - 圣诞58/N-58-4.md
+  - 圣诞58/N-58-5A.md
+  - 圣诞58/58-5B.明空.md
+  - 圣诞58/58-6.逐粮.md
+  - 圣诞58/58-7.大水.md
+  - 圣诞58/58-8A.大云经.md
+  - 圣诞58/58-8B.大云经.md
+  - 圣诞58/58-9A.夜壶.md
+  - 圣诞58/58-9B.夜壶.md
+  - 圣诞59/59-1.献身.md
+  - 圣诞59/59-2.木僧.md
+  - 圣诞59/59-3.千金酒.md
+  - 圣诞59/59-4A.棋.md
+  - 圣诞59/59-4B.棋.md
+  - 圣诞59/59-5A.佛.md
+  - 圣诞59/59-5B.佛.md
+  - 圣诞59/59-5C.佛.md
+  - 圣诞59/59-6.金屋.md
+  - 圣诞59/59-7A.长屋.md
+  - 圣诞59/59-7B.长屋.md
+  - 圣诞59/59-8.青楼.md
+
+pdf-engine: xelatex
+
+variables:
+  documentclass: scrartcl
+  # 2. Add 'lang' to help with Chinese localization
+  lang: zh-Hans 
+  geometry: |
+    paperwidth=9cm,
+    paperheight=16cm,
+    margin=0.2cm
+  CJKmainfont: "PingFang SC"
+  fontsize: 14pt
+  header-includes:
+    - |
+      \usepackage{graphicx}
+      \setkeys{Gin}{width=\linewidth,height=0.9\textheight,keepaspectratio}
+      % 3. This renames "Figure" to "图"
+      \renewcommand{\figurename}{图}
